@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Music Bash</title>
+		<link rel="shortcut icon" type="image/x-icon" href="fevicon.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<meta name="viewport" content="Width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<header>
+		<div class="head-wrap">
+			<div class="music-icon">
+		    	<img src="images/music.jpg">	
+		    	<div class="player">
+		      		<p> Music <br> Bash</p>
+	        	</div>
+	    	</div>
+			
+			<div class="search">
+				<input type="text" class="searchTerm" placeholder="Search">
+					<button type="submit" class="micButton">
+						<i class="fa fa-microphone"></i>
+					</button>
+					<button type="submit" class="searchButton">
+						<i class="fa fa-search"></i>
+					</button>
+			</div>
+			<div class="bell-icon" >  
+	  			<button type="submit">
+					<i class="fa fa-bell"></i>
+	  			</button>
+			</div>
+			<div class="dp">
+				<img src="images/shivali.jpg">
+			</div>
+
+
+	<!-- adds icon and responsiveness to the header -->
+		      <div class="responsive-bttn">
+		      		<button class="dropbtn">
+		      			<i class="fa fa-bars"></i>
+		      		</button>
+		      		<div class="dropdown-content">
+		    					<a href="#">Search</a>
+		    					<a href="#">Notifications</a>
+		 			</div>
+		      </div>
+		</div>
+
+	</header>
+<!-- main section -->
+ <main > 
+		<div class="container">
+ 			 <div class="card">
+   				 <img src="images/picture1.jpg" class="picture">  
+  			</div>
+  			<div class="card">
+   				 <img class="picture"src="images/picture2.jpg">
+ 			 </div>
+  			<div class="card">
+  				 <img class="picture"src="images/picture3.jpg">
+  			</div>
+ 			 <div class="card">
+   				<img class="picture"src="images/picture4.jpg">
+  			</div>
+		</div>
+	<div class="l-r"> 
+			<p> Latest Releases</p>
+	</div>
+	<div class="latest-releases">
+	
+		<div class="songs-container">
+			<a href="#show" id="song-play"><img class="image"  src="images/filhaal.jpg"></a>
+			<div class="song-name"><p> Filhaal </p>
+				<p id="date"> Nov&nbsp;7&nbsp;2019</p></div>
+				<div id="span">
+				<button class="dropbtn">...</button>
+ 					 <div class="dropdown-content">
+    					<a href="#">Play Now</a>
+    					<a href="#">Add to Queue</a>
+    					<a href="#">Add to favourites</a>
+ 					 </div>
+ 				</div>
+		</div>
+		<div class="songs-container">
+			<a href="#show" id="song-play"><img class="image"  src="images/garmi.jpg"></a>
+			<div class="song-name"><p> Garmi </p>
+				<p id="date"> Nov&nbsp;7&nbsp;2019</p></div>
+				<div id="span"> 
+					<button class="dropbtn">...</button>
+ 					 <div class="dropdown-content">
+    					<a href="#">Play Now</a>
+    					<a href="#">Add to Queue</a>
+    					<a href="#">Add to favourites</a>
+ 					 </div>
+				</div> 
+		</div>
+		<div class="songs-container">
+			<a href="#show" id="song-play">
+				<img class="image"  src="images/Closer.jpg">
+			</a>
+			<div class="song-name"><p> Closer </p>
+				<p id="date"> Nov&nbsp;7&nbsp;2019</p></div>
+				<div id="span"> 
+					<button class="dropbtn">...</button>
+ 					 <div class="dropdown-content">
+    					<a href="#">Play Now</a>
+    					<a href="#">Add to Queue</a>
+    					<a href="#">Add to favourites</a>
+ 					 </div>
+				</div> 
+		</div>
+		<div class="songs-container">
+			<a href="#show" id="song-play"><img class="image"  src="images/kalla sohna ni.jpg"></a>
+			<div class="song-name"><p> Kalla Sohna Ni </p>
+				<p id="date"> Nov&nbsp;7&nbsp;2019</p></div>
+				<div id="span">
+					<button class="dropbtn">...</button>
+ 					 <div class="dropdown-content">
+    					<a href="#">Play Now</a>
+    					<a href="#">Add to Queue</a>
+    					<a href="#">Add to favourites</a>
+ 					 </div>
+				</div> 
+		</div>
+	</div>
+<!-- add popular artists div to the page -->
+	<div class="p-a">
+		<p> Popular Artists</p>
+	</div>
+	<div class="artist-container">
+		<div class="artist-image">
+			<img src="images/edsheeran.jpg" class="border-radius">
+			<p> Ed Sheeran</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/coldplay.jpg" class="border-radius">
+			<p> Cold Play</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/brunomars.jpeg" class="border-radius">
+			<p> Bruno Mars</p>
+		</div>
+		<div class="artist-image">
+			<a href="page2.html" id="page-2"><img src="images/arijit.jpg" class="border-radius"></a>
+			<p> Arijit Singh</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/imagine.jpg" class="border-radius">
+			<p> Charlie Puth</p>
+		</div>
+		<div class="artist-image ">
+			<img src="images/zayn.jpg" class="border-radius">
+			<p> Charlie Puth</p>
+		</div>
+	</div>
+<!-- adds type of songs div to the page -->
+		<div class="type-of-song">
+            <div class="station">
+				<img src="images/stations.png">	
+		    </div> 
+		    <div class="container-1">
+		    	<div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				
+			     <div class="love">
+		   			<p> Love</p>
+		    	</div>
+		    	<div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				<div class="love">
+		   			<p> Love</p>
+		   		 </div>
+		   		 <div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				<div class="love">
+		   			<p> Love</p>
+		    	</div>
+		   		 <div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				<div class="love">
+		   			<p> Love</p>
+		    	</div>
+		   		 <div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				<div class="love">
+		   			<p> Love</p>
+		   		</div>
+		   		 <div class="tos-container">
+					<img src="images/love.png">
+				</div> 
+				<div class="love">
+		   			<p> Love</p>
+		   		</div>
+		    
+		   	</div>
+		</div>
+		<div class="type-of-song-2">
+			<div class="container-2">
+				<img src="images/party.png">
+			</div>
+			<div class="text-container">
+				<p> Party</p>
+			</div>
+			<div class="container-2">
+				<img src="images/electronic.jpg">
+			</div>
+			<div class="text-container">
+				<p> Electronics</p>
+			</div>
+			<div class="container-2">
+				<img src="images/roadtrip.jpg">
+			</div>
+			<div class="text-container">
+				<p> Road Trip</p>
+			</div>
+		</div>
+	<div class="p-a">
+		<p> Latest English</p>
+	</div>
+	<div class="artist-container">
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"> <a href="#show" id="song-play">Onism </a><br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Onism</a> <br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Onism</a> <br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Onism</a> <br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play"> Onism</a> <br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/english.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play"> Onism </a><br> Aug 11,2017</p>
+		</div>
+	</div>
+	<div class="p-a p-h">
+		<p> Latest Hindi</p>
+	</div>
+	<div class="artist-container">
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"> <a href="#show" id="song-play"> Garmi </a><br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Garmi</a> <br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Garmi</a><br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Garmi</a><br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Garmi</a><br> Aug 11,2017</p>
+		</div>
+		<div class="artist-image">
+			<img src="images/garmi.jpg">
+			<p id="latest-e-h-p"><a href="#show" id="song-play">Garmi </a><br> Aug 11,2017</p>
+		</div>
+	</div>	
+<!-- adds music player to the webpage-->
+<section id="music-player">
+	<div id="show" class="container-audio">
+		<audio controls  loop autoplay >
+			<source src="Closer.mp3" type="audio/ogg">
+				Your browser dose not Support the audio Tag
+		</audio>
+		
+	</div>
+	
+</section>
+</main>
+
+<!-- aside section starts here -->
+<aside>
+	<div class="queue">
+		<div class="q-p">
+			<p> Queue</p>
+		</div>
+		<div class="queue-bttn">
+			<button id="q-bttn">Queue</button>
+ 			 	<div class="dropdown">
+    				<a href="#">My Favourites</a>
+    				<a href="#">Playlists</a>
+ 				</div>
+ 		</div>
+ 	</div>
+ 	<div class="queue-container">
+			<div class="song-queue-container">
+				<span>01</span>
+				<img class="bx-pink" src="images/Closer.jpg">
+				<span>New Skin</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>02</span>
+				<img class="bx-pink" src="images/Divide.jpg">
+				<span>Worry Bout Us</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>03</span>
+				<img class="bx-pink" src="images/Closer.jpg">
+				<span>Mirage</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>04</span>
+				<img class="bx-pink" src="images/Plus.png">
+				<span>Closer</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>05</span>
+				<img class="bx-pink" src="images/X.png">
+				<span>Closer</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>06</span>
+				<img class="bx-pink" src="images/Closer.jpg">
+				<span>Sucker</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>07</span>
+				<img class="bx-pink" src="images/Plus.png">
+				<span>Intention</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>08</span>
+				<img class="bx-pink" src="images/Divide.jpg">
+				<span>Girls Like You</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>09</span>
+				<img class="bx-pink" src="images/Closer.jpg">
+				<span>Sucker</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+			<div class="song-queue-container">
+				<span>10</span>
+				<img class="bx-pink" src="images/Divide.jpg">
+				<span>Sucker</span>
+				<span><i class='far fa-heart'></i></span>
+			</div>
+	</div>
+</aside>
+
+</body>
+</html>
